@@ -1,0 +1,186 @@
+@font-face {
+    font-family: Mada;
+    src: url(C:/Users/SAMSUNG/Documents/GitHub/vwegba-interiors/Mada/Mada-ExtraLight.ttf);
+}
+@font-face {
+    font-family: Lato;
+    src: url(Lato-Bold.ttf);
+}
+html{
+    font-family: Mada;
+    margin: 0;
+    padding: 0;
+}
+html > *{
+    color: white;
+}
+body{
+    background-color: #00020c;
+
+}
+.section-1{
+    width: 100%;
+    max-height: 20%;
+    background: linear-gradient(to bottom, #000108,#010313, #010630,#010313 );
+    
+}
+header{
+    width: auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.img-container{
+    max-width: 100%;
+    flex: 1;
+    display: flex;
+    margin-left: 25%;
+}
+.img-container img{
+    transform: rotate(90deg);
+    flex-direction: row;
+}
+.logo{
+    font-size: 2em;
+    margin-top: 0.6vw;
+    padding-left: -2vw;
+    display: none;
+}
+header  h3{
+    flex: 2;
+    
+}
+p span:hover{
+    color: #4e5691;
+}
+header  h3 ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
+    position: absolute;
+    top: 30%;
+   
+}
+header h3 ul a li{
+
+    list-style: none;
+    color: azure;
+    font-size: .9em;
+}
+header h3 ul a {
+    text-decoration: none;
+}
+.section-2{
+    width: 100%;
+    max-height: 70%;
+   
+    
+
+    
+}
+.img-container-2{
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    background: linear-gradient(to top, #000108,#010313, #010630,#010313 );
+    
+}
+.img-container-2 .bg{
+    position: absolute;
+    opacity: 0.1;
+    border-radius: 10%;
+}
+.logo-2{
+    position: relative;
+    width: max-content;
+    transform: rotate(90deg);
+    opacity: 0.5;
+}
+.section-2 .body{
+    position: absolute;
+    width: 30%;
+    height: auto;
+    padding: 5px 0 5px 20px;
+    top: 40%;
+    left: 42%;
+    background: scroll linear-gradient(to top , #000108,#010313,#010313 );
+    border-radius: 2%;
+    
+    
+}
+.login{
+    font-family: Lato;
+    font-size: 3em;
+    font-weight: 900;
+    letter-spacing: .1em;
+    text-align: center;
+    
+}
+h1{
+    font-size: .75em;
+}
+.login fieldset{
+    font-size: .3em;
+    margin-top: 1.5em;
+    
+}
+fieldset .input-1{
+    position: absolute;
+    left: 15%;
+    
+}
+input{
+    background: linear-gradient(to top , #000108,#010313,#010630);
+    /* border: none ; */
+    color: azure;
+    border: 1px solid #010630;
+    transition: all, 0.5s, ease-in-out;
+}
+
+fieldset .input-2{
+    position: absolute;
+    left: 6%;
+}
+fieldset .input-3 button{
+    background:linear-gradient(to right, #010313 ,#010313, #010313,#010630);
+    border: none;
+    border-radius: 5%;
+    color:azure;
+    width: 5em;
+    align-content: center;
+    transition: all, 1s ;
+}
+fieldset .input-3 button:hover{
+    background: azure;
+    color: #000108;
+}
+.create-account a{  
+    text-decoration: none;
+    font-size: .25em;
+    border: none;
+    color: azure;
+    transition-property: all;
+    transition-duration: 1s
+}
+.create-account a:hover{
+    color: #ccf8f8;
+    font-size: .2em
+}
+.section-3{
+    width: 100%;
+    max-height:10% ;
+}
+footer{
+    position: absolute;
+    top: 95%;
+    left: 45%;
+    
+}
+footer p{
+    letter-spacing: 1em;
+    font-weight: lighter;
+    font-size: .75em;
+
+}

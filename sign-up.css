@@ -1,0 +1,73 @@
+
+
+h3{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    font-size: 2em;
+    transition: color 0.2s ease-in-out;
+    margin-bottom: 20px;
+    
+}
+h3:hover{
+    color: #858ed6;
+}
+.sign-up{
+    font-family: Lato;
+    font-size: 2em;
+    font-weight: 900;
+    letter-spacing: .1em;
+    text-align: center;
+}
+fieldset{position: relative;
+}
+Label , input , select{
+    font-size: 0.5em;
+    width: 10em;
+}
+input{
+
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    border: none;
+}
+.Email{
+    padding-left:2em;
+    margin-right: 0.8em;
+    
+    
+}
+.Gender{
+    margin-right: 1em;
+}
+select{
+    background:linear-gradient(to right, #010313 ,#010313, #010313,#010630);
+    color: azure;
+    font-size: 0.5em;
+}
+option{
+    background-color: white;
+    color: #010313;
+    font-size: 0.5;
+    text-align: center;
+}
+.submit{
+    margin: auto;
+}
+button{
+    background:linear-gradient(to right, #010313 ,#010313, #010313,#010630);
+    border: none;
+    border-radius: 5%;
+    color:azure;
+    width: 5em;
+    align-content: center;
+    transition: all, 1s ;
+}
+button:hover{
+    background: azure;
+    color: #000108;
+}
